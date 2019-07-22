@@ -14,7 +14,7 @@ After=x11-common
 StartLimitIntervalSec=0
 
 [Service]
-Environment="DISPLAY=:0"
+Environment="DISPLAY=:1.0"
 Environment="XAUTHORITY=$XAUTHORITY"
 User=root
 Restart=always
